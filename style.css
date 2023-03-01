@@ -1,0 +1,256 @@
+.header {
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+    font-family: Source Sans Pro;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 60px;
+    display: flex;
+    max-width: 550px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#search-box {
+    width: 0%;
+    padding: 0%;
+    border: 1px solid rgb(204, 204, 204);
+    height: 36px;
+    border-radius: 18px 0px 0px 18px ;
+    flex: 1;
+    padding-left: 16px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+.menu-button {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 0ch;
+    
+    border-radius: 20px;
+    margin-left: 16px;
+    margin-right: 20px;
+}
+
+.menu-button:hover {
+
+    background-color: rgb(235, 235, 235);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.menu-image {
+    height: 26px;
+}
+
+.youtube-image {
+    height: 18px;
+}
+
+.search-button {
+    padding: 0%;
+    background-color: rgba(245, 245, 245, 0.733);
+    height: 38px;
+    width: 60px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 0px 19px 19px 0px;
+    margin-right: 10px;
+    margin-left: -1px;
+}
+
+.search-button:hover {
+    background-color: rgba(236, 236, 236, 0.863);
+}
+
+.search-image {
+    padding: 0%;
+    height: 25px;
+    margin-top: 2px;
+}
+
+.voice-button {
+    border: 0ch;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;background-color: white;
+}
+
+.voice-button:hover {
+    background-color: rgb(235, 235, 235);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.voice-image {
+    height: 24px;
+    margin-top: 2px;
+}
+
+.right-section {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 24px;
+    flex-shrink: 0
+    ;
+}
+
+.video-image {
+    height: 22px;
+    margin-top: 2px;
+}
+
+.video-button {
+    border: 0ch;
+    height: 40px;
+    width: 40px;
+    border-radius: 18px;background-color: white;
+}
+
+.video-button:hover {
+    background-color: rgb(235, 235, 235);
+    height: 40px;
+    width: 40px;
+    border-radius: 18px;
+    border: 0ch;
+}
+
+.notification-image {
+    height: 22px;
+}
+
+.notification-button {
+    border: 0ch;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;background-color: white;
+}
+
+.notification-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+.profile-image {
+    height: 34px;
+    width: 34px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.profile-button {
+    border: 0ch;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;background-color: white;
+}
+
+
+.collage {
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+.whole {
+    padding-top: 50px;
+    
+}
+
+.blender-footage {
+    margin: 0%;
+    padding: 0%;
+    font-family: Source Sans Pro;
+    margin-top: 10px;
+    max-width: 280px;
+}
+
+.thumbnail-row {
+    padding: 0%;
+    margin: 0%;
+}
+
+.tn-2 {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.auth-row {
+display: grid;
+grid-template-columns: 50px 250px;
+margin-top: 10px;
+}
+
+.profile-auth {
+    margin-top: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.pic-author {
+    height: 40px;
+    border-radius: 20px;
+}
+
+.video-stats {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.video-title {
+    margin: 0%;
+    padding: 0%;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.name-cos {
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.view-count {
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    color: gray;
+    margin-top: 2px;
+}
+
+
