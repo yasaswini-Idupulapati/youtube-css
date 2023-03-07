@@ -10,8 +10,12 @@
     font-family: Source Sans Pro;
     position: fixed;
     top: 0%;
-    right: 0%;
+    right: 0px;
     left: 0%;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    z-index: 100
+    ;
+    
 }
 
 .left-section {
@@ -155,6 +159,31 @@
 .notification-button:hover {
     background-color: rgb(235, 235, 235);
 }
+
+
+.box-notify {
+    position: relative;
+}
+
+
+.number-notify {
+    position: absolute;
+    background-color: rgb(240, 24, 24);
+    color: white;
+    font-size: 12px;
+    padding-top: 1px;
+    font-weight: 550
+    ;
+    border-radius: 10px;
+    height: 16px;
+    width: 20px;
+    top: -5px;
+    right: -5px;
+}
+
+
+
+
 .profile-image {
     height: 34px;
     width: 34px;
@@ -169,7 +198,6 @@
     border-radius: 20px;background-color: white;
 }
 
-
 .collage {
     vertical-align: middle;
 }
@@ -182,8 +210,95 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.side-bar {
+    background-color: white;
+    font-family: Source Sans Pro;
+    width: 80px;
+    top: 60px;
+    left: 0%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px
+    ;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    height: 100%;
+}
+
+
+
+
+
+.home-icon, .shorts-icon, .explore-icon, .library-icon {
+    padding: 0%;
+    margin: 0%;
+    width: 25px;
+    height: 25px;
+}
+
+.name-h, .name-s, .name-e, .name-l {
+    
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-h, .box-s, .box-e, .box-l {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 80px;
+    
+}
+
+.box-h:hover, .box-s:hover, .box-e:hover, .box-l:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .whole {
-    padding-top: 50px;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 80px;
+    padding-left: 110px;
+    top: 100%;
+    left: 0%;
+    right: 100%;
     
 }
 
@@ -191,26 +306,49 @@
     margin: 0%;
     padding: 0%;
     font-family: Source Sans Pro;
-    margin-top: 10px;
     max-width: 280px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .thumbnail-row {
     padding: 0%;
     margin: 0%;
+    position: relative;
+
 }
 
 .tn-2 {
     padding: 0%;
     margin: 0%;
     width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
+
+
+.video-time{
+    right: 4px;
+    position: absolute;
+    bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    border-radius: 4px;
+    font-weight: 550;
+}
+
 
 .auth-row {
 display: grid;
 grid-template-columns: 50px 250px;
 margin-top: 10px;
+width: 250px;
 }
 
 .profile-auth {
@@ -227,6 +365,7 @@ margin-top: 10px;
 .video-stats {
     margin: 0%;
     padding: 0%;
+    width: 200px;
 
 }
 
@@ -235,6 +374,7 @@ margin-top: 10px;
     padding: 0%;
     font-weight: 550;
     font-size: 18px;
+    width: 100%;
 }
 
 .name-cos {
@@ -252,5 +392,7 @@ margin-top: 10px;
     color: gray;
     margin-top: 2px;
 }
+
+
 
 
